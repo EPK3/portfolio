@@ -14,7 +14,7 @@ const Experience = () => {
   return (
     <div className='flex flex-col justify-center m-auto bg-[#ebebeb]'>
         <div className='flex justify-center m-auto my-20'>
-            <h1 className='text-8xl text-center text-light-gray opacity-50 font-oxygen font-bold'>MY RESUME</h1>
+            <h1 className='text-8xl text-center text-gray font-oswald'>MY RESUME</h1>
         </div>
           <div className='flex flex-wrap justify-center mb-20'>
             <div className='w-[400px] bg-orange text-white text-2xl rounded-md my-5 py-2 shadow-md'>

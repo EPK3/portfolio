@@ -6,6 +6,7 @@ module.exports = {
     fontFamily: {
       'cursive': ['Oooh Baby', 'cursive'],
       'oxygen': ['Oxygen', 'sans-serif'],
+      'oswald': ['Oswald', 'sans-serif'],
     },
     colors: {
       'black': '#040403',

@@ -3,6 +3,7 @@ import About from './Components/About';
 import Banner from './Components/Banner';
 import Experience from './Components/Experience';
 import Break from './Components/Break';
+import Portfolio from './Components/Portfolio';
 
 class App extends Component {
   render(){
@@ -12,6 +13,7 @@ class App extends Component {
       <About/>
       <Experience/>
       <Break/>
+      <Portfolio/>
     </div>
   );
   }
