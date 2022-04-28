@@ -12,7 +12,7 @@ import React from 'react'
 
 const Experience = () => {
   return (
-    <div className='flex flex-col justify-center m-auto bg-[#ebebeb]'>
+    <div className='flex flex-col justify-center m-auto bg-[#ebebeb] font-oxygen'>
         <div className='flex justify-center m-auto my-20'>
             <h1 className='text-8xl text-center text-gray font-oswald'>MY RESUME</h1>
         </div>
