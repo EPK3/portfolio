@@ -4,18 +4,27 @@ import Banner from './Components/Banner';
 import Experience from './Components/Experience';
 import Break from './Components/Break';
 import Portfolio from './Components/Portfolio';
+import Navbar from './Components/Navbar';
+import { BrowserRouter } from 'react-router-dom';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
 
 class App extends Component {
-  render(){
-  return (
-    <div>
-      <Banner/>
-      <About/>
-      <Experience/>
-      <Break/>
-      <Portfolio/>
-    </div>
-  );
+  render() {
+    return (
+      <BrowserRouter>
+        <div>
+          <Navbar />
+          <Banner />
+          <About />
+          <Experience />
+          <Break />
+          <Portfolio />
+          <Contact />
+          <Footer/>
+        </div>
+      </BrowserRouter>
+    );
   }
 }
 
