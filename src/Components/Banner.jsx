@@ -11,9 +11,9 @@ const Banner = () => {
     <div id='top' style={{ backgroundImage: `url('${banner}')` }} className='h-screen bg-cover bg-bottom flex flex-col justify-center content-center'>
       <div className='m-auto animate-FadeIn'>
         <img src={headshot} alt='Something went wrong..' className='w-[250px] m-auto my-5' />
-        <h1 className='text-5xl text-center font-cursive text-white m-auto mb-5 rotate-[355deg]'>- Edward Krajewski III -</h1>
-        <h2 className='text-2xl text-center font-oxygen font-light text-white m-auto'>Front-End / Web Developer</h2>
-        <div className='flex m-auto p-5 text-4xl text-white justify-center opacity-50'>
+        <h1 className='text-4xl md:text-5xl text-center font-cursive text-white m-auto mb-5 rotate-[355deg]'>- Edward Krajewski III -</h1>
+        <h2 className=' text-xl md:text-2xl text-center font-oxygen font-light text-white m-auto'>Front-End / Web Developer</h2>
+        <div className='flex m-auto p-5 text-2xl md:text-4xl text-white justify-center opacity-50'>
           <Link smooth to='#about'>
             <FontAwesomeIcon icon={faIdCard} className='mx-5 cursor-pointer hover:animate-spin-fast' />
           </Link>

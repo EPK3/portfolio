@@ -7,16 +7,16 @@ const About = () => {
     <div id='about' className='flex flex-col py-20'>
         <div className='flex justify-center m-auto mb-10'>
             <Fade top>
-                <h1 className='text-8xl text-center text-gray font-oswald'>ABOUT ME</h1>
+                <h1 className='text-6xl md:text-8xl text-center text-gray font-oswald'>ABOUT ME</h1>
             </Fade>
         </div>
-        <div className='inline-flex justify-center m-auto'>
-            <div className='flex justify-center m-auto mx-5'>
+        <div className='md:inline-flex flex-wrap justify-center m-auto'>
+            <div className='flex md:justify-center m-auto md:mx-5'>
                 <Fade left>
-                    <img src={photo} alt='Something went wrong..' className='w-[600px]'/>
+                    <img src={photo} alt='Something went wrong..' className='w-[350px] md:w-[600px]'/>
                 </Fade>
             </div>
-            <div className='flex flex-col m-auto mx-5 w-[600px]'>
+            <div className='flex flex-col m-auto mx-5 md:w-[600px]'>
                 <Fade right>
                     <h2 className='text-2xl text-orange font-oxygen font-normal my-3'>Let Me Introduce Myself.</h2>
                     <p className='text-lg text-gray font-light mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>

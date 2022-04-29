@@ -6,7 +6,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 
 const Navbar = () => {
   return (
-    <div className='flex flex-col p-5 fixed justify-center content-center h-screen m-auto text-center text-white' >
+    <div className='hidden lg:flex flex-col p-5 fixed justify-center content-center h-screen m-auto text-center text-white z-50' >
       <div className='flex flex-col bg-orange p-2 rounded-lg shadow-md'>
         <Link smooth to='#top'>
           <FontAwesomeIcon icon={faArrowUp} className='text-2xl my-2 hover:cursor-pointer hover:scale-110' />

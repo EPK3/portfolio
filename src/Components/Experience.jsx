@@ -16,12 +16,12 @@ const Experience = () => {
     <div id='resume' className='flex flex-col justify-center m-auto bg-[#ebebeb] font-oxygen'>
         <div className='flex justify-center m-auto my-20'>
           <Fade top>
-            <h1 className='text-8xl text-center text-gray font-oswald'>MY RESUME</h1>
+            <h1 className='text-6xl md:text-8xl text-center text-gray font-oswald'>MY RESUME</h1>
           </Fade>
         </div>
           <div className='flex flex-wrap justify-center mb-20'>
             <Fade left>
-              <div className='w-[400px] bg-orange text-white text-2xl rounded-md my-5 py-2 shadow-md'>
+              <div className='w-[350px] md:w-[400px] bg-orange text-white text-2xl rounded-md my-5 py-2 shadow-md'>
                 <FontAwesomeIcon icon={faRobot} className='inline-flex align-middle ml-5 mr-2'/>
                 <h1 className='inline-flex align-middle'>Skillset</h1>
               </div>
@@ -36,16 +36,16 @@ const Experience = () => {
             </Fade>
           </div>
         <div className='basis-full'></div>
-        <div className='flex flex-row flex-wrap justify-center gap-5'>
-          <div className='mx-10'>
+        <div className='flex md:flex-row flex-wrap justify-center gap-5'>
+          <div className='md:mx-10'>
             <Fade bottom>
-              <div className='w-[400px] bg-orange text-white text-2xl rounded-md my-5 py-2 shadow-md'>
+              <div className='w-[350px] md:w-[400px] bg-orange text-white text-2xl rounded-md my-5 py-2 shadow-md'>
                 <FontAwesomeIcon icon={faUserGraduate} className='inline-flex align-middle ml-5 mr-2'/>
                 <h1 className='inline-flex align-middle'>Education</h1>
               </div>
             </Fade>
             <Fade bottom>
-              <div className='w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
+              <div className='w-[350px] md:w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
                 <div className='p-5 pb-2 text-black text-sm'>
                   <FontAwesomeIcon icon={faCalendar} className='inline-flex'/>
                   <h1 className='inline-flex mx-2'>January 2020 - PRESENT</h1>
@@ -56,7 +56,7 @@ const Experience = () => {
               </div>
             </Fade>
             <Fade bottom>
-              <div className='w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
+              <div className='w-[350px] md:w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
                 <div className='p-5 pb-2 text-black text-sm'>
                   <FontAwesomeIcon icon={faCalendar} className='inline-flex'/>
                   <h1 className='inline-flex mx-2'>June 2008</h1>
@@ -69,13 +69,13 @@ const Experience = () => {
           </div>
           <div className='mx-10'>
             <Fade bottom>
-              <div className='w-[400px] bg-orange text-white text-2xl rounded-md my-5 py-2 shadow-md'>
+              <div className='w-[350px] md:w-[400px] bg-orange text-white text-2xl rounded-md my-5 py-2 shadow-md'>
                 <FontAwesomeIcon icon={faBriefcase} className='inline-flex align-middle ml-5 mr-2'/>
                 <h1 className='inline-flex align-middle'>Experience</h1>
               </div>
             </Fade>
             <Fade bottom>
-              <div className='w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
+              <div className='w-[350px] md:w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
                 <div className='p-5 pb-2 text-black text-sm'>
                   <FontAwesomeIcon icon={faCalendar} className='inline-flex'/>
                   <h1 className='inline-flex mx-2'>September 2012 - March 2020</h1>
@@ -86,7 +86,7 @@ const Experience = () => {
               </div>
             </Fade>
             <Fade bottom>
-              <div className='w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
+              <div className='w-[350px] md:w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
                 <div className='p-5 pb-2 text-black text-sm'>
                   <FontAwesomeIcon icon={faCalendar} className='inline-flex'/>
                   <h1 className='inline-flex mx-2'>August 2011 - August 2012</h1>
@@ -97,7 +97,7 @@ const Experience = () => {
               </div>
             </Fade>
             <Fade bottom>
-              <div className='w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
+              <div className='w-[350px] md:w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
                 <div className='p-5 pb-2 text-black text-sm'>
                   <FontAwesomeIcon icon={faCalendar} className='inline-flex'/>
                   <h1 className='inline-flex mx-2'>June 2010 - August 2011</h1>
@@ -110,18 +110,18 @@ const Experience = () => {
           </div>
           <div className='mx-10'>
             <Fade bottom>
-              <div className='w-[400px] bg-orange text-white text-2xl rounded-md my-5 py-2 shadow-md'>
+              <div className='w-[350px] md:w-[400px] bg-orange text-white text-2xl rounded-md my-5 py-2 shadow-md'>
                 <FontAwesomeIcon icon={faAward} className='inline-flex align-middle ml-5 mr-2'/>
                 <h1 className='inline-flex align-middle'>Certifications</h1>
               </div>
             </Fade>
             <Fade bottom>
-              <div className='flex justify-center w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
+              <div className='flex justify-center w-[350px] md:w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
                 <img src={comptia} alt='Something went wrong..' className='h-[200px]'/>
               </div>
             </Fade>
             <Fade bottom>
-              <div className='flex justify-center w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
+              <div className='flex justify-center w-[350px] md:w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
                 <img src={googleIT} alt='Something went wrong..' className='h-[200px]'/>
               </div>
             </Fade>

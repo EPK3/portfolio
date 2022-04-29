@@ -9,7 +9,7 @@ const Contact = () => {
         <div className='flex m-auto py-20 bg-[#ebebeb] font-oxygen'>
             <div className='flex flex-col justify-center m-auto mb-20'>
                 <Fade top>
-                    <h1 className='text-8xl text-center text-gray font-oswald'>CONTACT</h1>
+                    <h1 className='text-6xl md:text-8xl text-center text-gray font-oswald'>CONTACT</h1>
                 </Fade>
                 <div className='flex flex-col justify-center m-auto my-20'>
                     <Fade right>
@@ -24,7 +24,7 @@ const Contact = () => {
                         </div>
                     </Fade>
                     <Fade bottom>
-                        <form action='mail.php' method='POST' className='flex flex-col my-10 w-[800px]'>
+                        <form action='mail.php' method='POST' className='flex flex-col my-10 w-[350px] md:w-[400px] lg:w-[800px]'>
                             <input type='text' id='name' placeholder='Name' className='h-12 border-b-[1px] border-light-gray p-2 text-lg outline-none rounded-t-lg shadow-md' />
                             <input type='text' id='email' placeholder='Email' className='h-12 border-b-[1px] border-light-gray p-2 text-lg outline-none shadow-md' />
                             <textarea type='text' id='message' placeholder='Your Message' className='h-64 p-2 text-lg outline-none rounded-b-lg shadow-md' />
