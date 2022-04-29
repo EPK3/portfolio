@@ -19,7 +19,7 @@ const About = () => {
             <div className='flex flex-col m-auto mx-5 md:w-[600px]'>
                 <Fade right>
                     <h2 className='text-2xl text-orange font-oxygen font-normal my-3'>Let Me Introduce Myself.</h2>
-                    <p className='text-lg text-gray font-light mb-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p className='text-lg text-gray font-light mb-3'>Hello, World! I’m Edward.  My love for front-end and web development started in middle-school when I would build websites for my friends skateboarding videos and punk rock bands using Adobe Dreamweaver. After spending many years working in middle management I made the decision to pivot into a career in coding and IT Solutions. During that time I rekindled my childhood passion and haven’t looked back since. I am eager to learn and grow on my path as a front-end / web developer!</p>
                     <ul>
                         <li className='inline-flex text-black text-lg font-normal'>From:</li>
                         <p className='inline-flex text-gray text-lg font-light mx-2'>Philadelphia, PA</p>
