@@ -1,5 +1,5 @@
 import { faCalendar } from '@fortawesome/free-regular-svg-icons'
-import { faAward, faBriefcase, faRobot, faUserGraduate } from '@fortawesome/free-solid-svg-icons'
+import { faAward, faBriefcase, faRobot, faUserGraduate, faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import comptia from '../img/comptia.webp'
 import googleIT from '../img/googleIT.webp'
@@ -28,11 +28,11 @@ const Experience = () => {
             </Fade>
             <div className='flex basis-full m-5'></div>
             <Fade right>
-              <img src={htmlIcon} alt='Something went wrong..' className='w-[250px] h-[250px] mx-5 bg-white rounded-full shadow-md p-1'/>
-              <img src={cssIcon} alt='Something went wrong..' className='w-[250px] h-[250px] mx-5 bg-white rounded-full shadow-md p-1'/>
-              <img src={jsIcon} alt='Something went wrong..' className='w-[250px] h-[250px] mx-5 bg-white rounded-full shadow-md p-1'/>
-              <img src={reactIcon} alt='Something went wrong..' className='w-[250px] h-[250px] mx-5 bg-white rounded-full shadow-md p-1'/>
-              <img src={tailwindIcon} alt='Something went wrong..' className='w-[250px] h-[250px] mx-5 bg-white rounded-full shadow-md p-1'/>
+              <img src={htmlIcon} alt='Something went wrong..' className='w-[100px] md:w-[250px] h-[100px] md:h-[250px] m-5 bg-white rounded-full shadow-md p-1'/>
+              <img src={cssIcon} alt='Something went wrong..' className='w-[100px] md:w-[250px] h-[100px] md:h-[250px] m-5 bg-white rounded-full shadow-md p-1'/>
+              <img src={jsIcon} alt='Something went wrong..' className='w-[100px] md:w-[250px] h-[100px] md:h-[250px] m-5 bg-white rounded-full shadow-md p-1'/>
+              <img src={reactIcon} alt='Something went wrong..' className='w-[100px] md:w-[250px] h-[100px] md:h-[250px] m-5 bg-white rounded-full shadow-md p-1'/>
+              <img src={tailwindIcon} alt='Something went wrong..' className='w-[100px] md:w-[250px] h-[100px] md:h-[250px] m-5 bg-white rounded-full shadow-md p-1'/>
             </Fade>
           </div>
         <div className='basis-full'></div>
@@ -126,9 +126,11 @@ const Experience = () => {
               </div>
             </Fade>
           </div>
-          <div className='flex basis-full mb-20'></div>
+          <div className='flex basis-full mb-10'></div>
         </div>
-        
+        <div className='flex justify-center m-auto mb-20'>
+          <button className='bg-orange py-2 px-5 text-white rounded-full'><FontAwesomeIcon icon={ faDownload } /> Resume</button>
+        </div>
     </div>
   )
 }

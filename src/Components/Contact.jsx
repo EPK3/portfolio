@@ -7,7 +7,7 @@ import { faMobileAlt } from '@fortawesome/free-solid-svg-icons'
 const Contact = () => {
     return (
         <div className='flex m-auto py-20 bg-[#ebebeb] font-oxygen'>
-            <div className='flex flex-col justify-center m-auto mb-20'>
+            <div className='flex flex-col justify-center m-auto'>
                 <Fade top>
                     <h1 className='text-6xl md:text-8xl text-center text-gray font-oswald'>CONTACT</h1>
                 </Fade>
@@ -16,7 +16,7 @@ const Contact = () => {
                         <h1 className='text-4xl text-orange text-center'>Let me hear from you.</h1>
                         <div className='mt-5 m-auto text-gray'>
                             <FontAwesomeIcon icon={faEnvelope} className='inline-flex text-2xl align-middle' />
-                            <h2 className='inline-flex mx-2 align-middle'>edward@epk3.com</h2>
+                            <h2 className='inline-flex mx-2 align-middle'>edward@epk3.net</h2>
                         </div>
                         <div className='m-auto text-gray'>
                             <FontAwesomeIcon icon={faMobileAlt} className='inline-flex text-2xl align-middle' />
