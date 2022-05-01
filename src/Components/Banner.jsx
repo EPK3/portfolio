@@ -3,7 +3,7 @@ import { faGraduationCap, faIdCard, faLaptopCode } from '@fortawesome/free-solid
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import banner from '../img/banner-background.webp'
-import headshot from '../img/headshot.png'
+import headshot from '../img/headshot.webp'
 import { HashLink as Link } from 'react-router-hash-link'
 
 const Banner = () => {
@@ -14,16 +14,16 @@ const Banner = () => {
         <h1 className='text-4xl md:text-5xl text-center font-cursive text-white m-auto mb-5 rotate-[355deg]'>- Edward Krajewski III -</h1>
         <h2 className=' text-xl md:text-2xl text-center font-oxygen font-light text-white m-auto'>Front-End / Web Developer</h2>
         <div className='flex m-auto p-5 text-2xl md:text-4xl text-white justify-center opacity-50'>
-          <Link smooth to='#about'>
+          <Link id='toAbout' smooth to='#about'>
             <FontAwesomeIcon icon={faIdCard} className='mx-5 cursor-pointer hover:animate-spin-fast' />
           </Link>
-          <Link smooth to='#resume'>
+          <Link id='toResume' smooth to='#resume'>
             <FontAwesomeIcon icon={faGraduationCap} className='mx-5 cursor-pointer hover:animate-spin-fast' />
           </Link>
-          <Link smooth to='#portfolio'>
+          <Link id='toResume' smooth to='#portfolio'>
             <FontAwesomeIcon icon={faLaptopCode} className='mx-5 cursor-pointer hover:animate-spin-fast' />
           </Link>
-          <a href='https://github.com/EPK3/' target="_blank" rel="noreferrer noopener">
+          <a href='https://github.com/EPK3/' id='toGithub' target="_blank" rel="noreferrer noopener">
             <FontAwesomeIcon icon={faGithub} className='mx-5 cursor-pointer hover:animate-spin-fast' />
           </a>
         </div>
