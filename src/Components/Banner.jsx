@@ -20,7 +20,7 @@ const Banner = () => {
           <Link id='toResume' smooth to='#resume'>
             <FontAwesomeIcon icon={faGraduationCap} className='mx-5 cursor-pointer hover:animate-spin-fast' />
           </Link>
-          <Link id='toResume' smooth to='#portfolio'>
+          <Link id='toPortfolio' smooth to='#portfolio'>
             <FontAwesomeIcon icon={faLaptopCode} className='mx-5 cursor-pointer hover:animate-spin-fast' />
           </Link>
           <a href='https://github.com/EPK3/' id='toGithub' target="_blank" rel="noreferrer noopener">
