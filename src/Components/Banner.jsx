@@ -14,16 +14,16 @@ const Banner = () => {
         <h1 className='text-4xl md:text-5xl text-center font-cursive text-white m-auto mb-5 rotate-[355deg]'>- Edward Krajewski III -</h1>
         <h2 className=' text-xl md:text-2xl text-center font-oxygen font-light text-white m-auto'>Front-End / Web Developer</h2>
         <div className='flex m-auto p-5 text-2xl md:text-4xl text-white justify-center opacity-50'>
-          <Link id='toAbout' smooth to='#about'>
+          <Link id='toAbout' aria-label='about' smooth to='#about'>
             <FontAwesomeIcon icon={faIdCard} className='mx-5 cursor-pointer hover:animate-spin-fast' />
           </Link>
-          <Link id='toResume' smooth to='#resume'>
+          <Link id='toResume' aria-label='resume' smooth to='#resume'>
             <FontAwesomeIcon icon={faGraduationCap} className='mx-5 cursor-pointer hover:animate-spin-fast' />
           </Link>
-          <Link id='toPortfolio' smooth to='#portfolio'>
+          <Link id='toPortfolio' aria-label='portfolio' smooth to='#portfolio'>
             <FontAwesomeIcon icon={faLaptopCode} className='mx-5 cursor-pointer hover:animate-spin-fast' />
           </Link>
-          <a href='https://github.com/EPK3/' id='toGithub' target="_blank" rel="noreferrer noopener">
+          <a href='https://github.com/EPK3/' id='toGithub' aria-label='Github' target="_blank" rel="noreferrer noopener">
             <FontAwesomeIcon icon={faGithub} className='mx-5 cursor-pointer hover:animate-spin-fast' />
           </a>
         </div>
