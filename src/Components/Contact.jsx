@@ -1,10 +1,39 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import React from 'react'
+import React, {useState} from 'react'
 import { Fade } from 'react-reveal'
-import { faMobileAlt } from '@fortawesome/free-solid-svg-icons'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
+    const [emailSent, setEmailSent] = useState(false);
+    const submit = () => {
+        if (name && email && message) {
+            const serviceId = 'service_6p7rjis';
+            const templateId = 'template_yfs01dl';
+            const userId = 'REww9IdCXgh7h3x0f';
+            const templateParams = {
+                name,
+                email,
+                message
+            };
+
+            emailjs.send(serviceId, templateId, templateParams, userId)
+                .then(response => console.log(response))
+                .then(error => console.log(error));
+
+            setName('');
+            setEmail('');
+            setMessage('');
+            setEmailSent(true);
+            alert('Thank you for your message!');
+        } else {
+            alert('Please fill in all fields.');
+        }
+    }
+
     return (
         <div className='flex m-auto py-20 bg-[#ebebeb] font-oxygen'>
             <div className='flex flex-col justify-center m-auto'>
@@ -18,17 +47,13 @@ const Contact = () => {
                             <FontAwesomeIcon icon={faEnvelope} className='inline-flex text-2xl align-middle' />
                             <h2 className='inline-flex mx-2 align-middle'>edward@epk3.net</h2>
                         </div>
-                        <div className='m-auto text-gray'>
-                            <FontAwesomeIcon icon={faMobileAlt} className='inline-flex text-2xl align-middle' />
-                            <h2 className='inline-flex mx-2 align-middle'>(123)456-7890</h2>
-                        </div>
                     </Fade>
                     <Fade bottom>
-                        <form action='mail.php' method='POST' className='flex flex-col my-10 w-[350px] md:w-[400px] lg:w-[800px]'>
-                            <input type='text' id='name' placeholder='Name' className='h-12 border-b-[1px] border-light-gray p-2 text-lg outline-none rounded-t-lg shadow-md' />
-                            <input type='text' id='email' placeholder='Email' className='h-12 border-b-[1px] border-light-gray p-2 text-lg outline-none shadow-md' />
-                            <textarea type='text' id='message' placeholder='Your Message' className='h-64 p-2 text-lg outline-none rounded-b-lg shadow-md' />
-                            <input type='submit' value='Send Message' className='bg-orange h-12 rounded-lg text-xl text-white my-2 shadow-md' />
+                        <form className='flex flex-col my-10 w-[350px] md:w-[400px] lg:w-[800px]'>
+                            <input type='text' placeholder='Name' value={name} onChange={e => setName(e.target.value)} className='h-12 border-b-[1px] border-light-gray p-2 text-lg outline-none rounded-t-lg shadow-md' />
+                            <input type='text' placeholder='Email' value={email} onChange={e => setEmail(e.target.value)} className='h-12 border-b-[1px] border-light-gray p-2 text-lg outline-none shadow-md' />
+                            <textarea type='text' placeholder='Your Message' value={message} onChange={e => setMessage(e.target.value)} className='h-64 p-2 text-lg outline-none rounded-b-lg shadow-md' />
+                            <input onClick={submit} value='Send Message' className='bg-orange h-12 rounded-lg text-center text-xl text-white my-2 shadow-md cursor-pointer outline-none'/>
                         </form>
                     </Fade>
                 </div>

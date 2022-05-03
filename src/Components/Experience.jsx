@@ -129,7 +129,9 @@ const Experience = () => {
           <div className='flex basis-full mb-10'></div>
         </div>
         <div className='flex justify-center m-auto mb-20'>
-          <button className='bg-orange py-2 px-5 text-white rounded-full'><FontAwesomeIcon icon={ faDownload } /> Resume</button>
+        <Fade bottom>
+          <button className='bg-orange py-2 px-5 text-white rounded-full'><a href='../img/EPK3Resume.pdf' id='resumeDownload' download><FontAwesomeIcon icon={ faDownload } /> Resume</a></button>
+          </Fade>
         </div>
     </div>
   )
