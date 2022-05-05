@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3b0f7d94.css",
-    "main.js": "/portfolio/static/js/main.32f4acc9.js",
-    "static/js/787.27ca2965.chunk.js": "/portfolio/static/js/787.27ca2965.chunk.js",
-    "static/media/banner-background.webp": "/portfolio/static/media/banner-background.48cf8e752891aed9fbde.webp",
-    "static/media/skills-background.webp": "/portfolio/static/media/skills-background.fc2e7a3633be655b2089.webp",
-    "static/media/newsletterbrowser.webp": "/portfolio/static/media/newsletterbrowser.74e1259ed8ca7a72cfc7.webp",
-    "static/media/headshot.webp": "/portfolio/static/media/headshot.8c644aac47b357efc633.webp",
-    "static/media/placeholder.webp": "/portfolio/static/media/placeholder.3a72e828d9089ef86969.webp",
-    "static/media/topshelfbrowser.webp": "/portfolio/static/media/topshelfbrowser.dd881ba7ccca1548a214.webp",
-    "static/media/trackerbrowser.webp": "/portfolio/static/media/trackerbrowser.0a19b4031e7a18054ee2.webp",
-    "static/media/helptechbrowser.webp": "/portfolio/static/media/helptechbrowser.2269d26fcbffd05efd57.webp",
-    "static/media/react.webp": "/portfolio/static/media/react.6f60cf382fdf6e3e0a3e.webp",
-    "static/media/css.webp": "/portfolio/static/media/css.385ce300255abdf7cb66.webp",
-    "static/media/tailwind.webp": "/portfolio/static/media/tailwind.d56f790e6503c75e088c.webp",
-    "static/media/html-1.webp": "/portfolio/static/media/html-1.b86f02b33f6f7c672dd3.webp",
-    "static/media/javascript.webp": "/portfolio/static/media/javascript.48713f6ba8df3557a0d1.webp",
-    "static/media/comptia.webp": "/portfolio/static/media/comptia.5b2cdda5f5bdda6042da.webp",
-    "static/media/googleIT.webp": "/portfolio/static/media/googleIT.fc4293dd3ec615a767bc.webp",
-    "index.html": "/portfolio/index.html",
-    "main.3b0f7d94.css.map": "/portfolio/static/css/main.3b0f7d94.css.map",
-    "main.32f4acc9.js.map": "/portfolio/static/js/main.32f4acc9.js.map",
-    "787.27ca2965.chunk.js.map": "/portfolio/static/js/787.27ca2965.chunk.js.map"
+    "main.css": "/static/css/main.3b0f7d94.css",
+    "main.js": "/static/js/main.3323c40b.js",
+    "static/js/787.27ca2965.chunk.js": "/static/js/787.27ca2965.chunk.js",
+    "static/media/banner-background.webp": "/static/media/banner-background.48cf8e752891aed9fbde.webp",
+    "static/media/skills-background.webp": "/static/media/skills-background.fc2e7a3633be655b2089.webp",
+    "static/media/newsletterbrowser.webp": "/static/media/newsletterbrowser.74e1259ed8ca7a72cfc7.webp",
+    "static/media/headshot.webp": "/static/media/headshot.8c644aac47b357efc633.webp",
+    "static/media/placeholder.webp": "/static/media/placeholder.3a72e828d9089ef86969.webp",
+    "static/media/topshelfbrowser.webp": "/static/media/topshelfbrowser.dd881ba7ccca1548a214.webp",
+    "static/media/trackerbrowser.webp": "/static/media/trackerbrowser.0a19b4031e7a18054ee2.webp",
+    "static/media/helptechbrowser.webp": "/static/media/helptechbrowser.2269d26fcbffd05efd57.webp",
+    "static/media/react.webp": "/static/media/react.6f60cf382fdf6e3e0a3e.webp",
+    "static/media/css.webp": "/static/media/css.385ce300255abdf7cb66.webp",
+    "static/media/tailwind.webp": "/static/media/tailwind.d56f790e6503c75e088c.webp",
+    "static/media/html-1.webp": "/static/media/html-1.b86f02b33f6f7c672dd3.webp",
+    "static/media/javascript.webp": "/static/media/javascript.48713f6ba8df3557a0d1.webp",
+    "static/media/comptia.webp": "/static/media/comptia.5b2cdda5f5bdda6042da.webp",
+    "static/media/googleIT.webp": "/static/media/googleIT.fc4293dd3ec615a767bc.webp",
+    "index.html": "/index.html",
+    "main.3b0f7d94.css.map": "/static/css/main.3b0f7d94.css.map",
+    "main.3323c40b.js.map": "/static/js/main.3323c40b.js.map",
+    "787.27ca2965.chunk.js.map": "/static/js/787.27ca2965.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b0f7d94.css",
-    "static/js/main.32f4acc9.js"
+    "static/js/main.3323c40b.js"
   ]
 }
