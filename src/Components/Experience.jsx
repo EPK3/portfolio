@@ -78,33 +78,22 @@ const Experience = () => {
               <div className='w-[350px] md:w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
                 <div className='p-5 pb-2 text-black text-sm'>
                   <FontAwesomeIcon icon={faCalendar} className='inline-flex'/>
+                  <h1 className='inline-flex mx-2'>April 2022 - PRESENT</h1>
+                </div>
+                <h2 className='px-5 text-xl text-orange'>Freelance Developer</h2>
+                <h3 className='px-5 text-gray'>Self</h3>
+                <h3 className='px-5 text-light-gray'>Jamison, PA</h3>
+              </div>
+            </Fade>
+            <Fade bottom>
+              <div className='w-[350px] md:w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
+                <div className='p-5 pb-2 text-black text-sm'>
+                  <FontAwesomeIcon icon={faCalendar} className='inline-flex'/>
                   <h1 className='inline-flex mx-2'>September 2012 - March 2020</h1>
                 </div>
                 <h2 className='px-5 text-xl text-orange'>Operations Manager</h2>
                 <h3 className='px-5 text-gray'>KAHAR, LLC</h3>
                 <h3 className='px-5 text-light-gray'>Boulder, CO</h3>
-              </div>
-            </Fade>
-            <Fade bottom>
-              <div className='w-[350px] md:w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
-                <div className='p-5 pb-2 text-black text-sm'>
-                  <FontAwesomeIcon icon={faCalendar} className='inline-flex'/>
-                  <h1 className='inline-flex mx-2'>August 2011 - August 2012</h1>
-                </div>
-                <h2 className='px-5 text-xl text-orange'>Associate Manager</h2>
-                <h3 className='px-5 text-gray'>Bagels Over Broadway</h3>
-                <h3 className='px-5 text-light-gray'>West Chester, PA</h3>
-              </div>
-            </Fade>
-            <Fade bottom>
-              <div className='w-[350px] md:w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
-                <div className='p-5 pb-2 text-black text-sm'>
-                  <FontAwesomeIcon icon={faCalendar} className='inline-flex'/>
-                  <h1 className='inline-flex mx-2'>June 2010 - August 2011</h1>
-                </div>
-                <h2 className='px-5 text-xl text-orange'>General Manager</h2>
-                <h3 className='px-5 text-gray'>SaladWorks</h3>
-                <h3 className='px-5 text-light-gray'>Warrington, PA</h3>
               </div>
             </Fade>
           </div>
@@ -130,7 +119,7 @@ const Experience = () => {
         </div>
         <div className='flex justify-center m-auto mb-20'>
         <Fade bottom>
-          <button className='bg-orange py-2 px-5 text-white rounded-full'><a href='../img/EPK3Resume.pdf' id='resumeDownload' download><FontAwesomeIcon icon={ faDownload } /> Resume</a></button>
+          <button className='bg-orange py-2 px-5 text-white rounded-full'><a href='/EPK3Resume.pdf' id='resumeDownload' download><FontAwesomeIcon icon={ faDownload } /> Resume</a></button>
           </Fade>
         </div>
     </div>
