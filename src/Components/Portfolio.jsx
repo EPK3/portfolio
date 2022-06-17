@@ -20,7 +20,7 @@ const Portfolio = () => {
           </div>
           <div className='p-2 w-[350px] xl:w-[400px]'>
             <h1 className='m-2 text-xl'>TopShelf Hockey Store</h1>
-            <p className='m-2 text-gray'>A mobile responsive e-commerce website built using React. I am currently building out the back-end to help learn node.js, complete it's functionality, and to make this my first full-stack project!</p>
+            <p className='m-2 text-gray'>A mobile responsive e-commerce website built using React. This project fetches product data from Sanity CMS.</p>
           </div>
           <div className='flex flex-col m-auto justify-center content-center w-[350px] xl:w-[400px] lg:border-l-[1px] border-light-gray'>
             <a href='https://epk3.github.io/topshelfhockey/' target="_blank" rel="noreferrer noopener" className='m-auto'>
