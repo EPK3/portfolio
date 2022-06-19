@@ -16,6 +16,25 @@ const Portfolio = () => {
       <Fade bottom>
         <div className='flex flex-row flex-wrap m-auto shadow-md rounded-md my-10 p-2 bg-[#fdfdfd] border-l-2 border-orange'>
           <div className='flex justify-center w-[350px] xl:w-[400px]'>
+            <img src={helptech} alt='Something went wrong..' className='w-[400px] hover:scale-110' />
+          </div>
+          <div className='p-2 w-[350px] xl:w-[400px]'>
+            <h1 className='m-2 text-xl'>HelpTech Website</h1>
+            <p className='m-2 text-gray'>A mobile responsive IT Solutions website built using React and styled with Tailwind CSS.</p>
+          </div>
+          <div className='flex flex-col m-auto justify-center content-center w-[350px] xl:w-[400px] lg:border-l-[1px] border-light-gray'>
+            <a href='https://epk3.github.io/helptech2point0/' target="_blank" rel="noreferrer noopener" className='m-auto'>
+              <h2 className='m-auto my-2 text-orange font-bold border-2 border-orange rounded-full px-5 py-2 text-lg hover:cursor-pointer hover:bg-orange hover:text-white'>Demo</h2>
+            </a>
+            <a href='https://github.com/EPK3/helptech2point0/find/main' target="_blank" rel="noreferrer noopener" className='m-auto'>
+              <h2 className='m-auto my-2 text-orange font-bold border-2 border-orange rounded-full px-5 py-2 text-lg hover:cursor-pointer hover:bg-orange hover:text-white'>Source Code</h2>
+            </a>
+          </div>
+        </div>
+      </Fade>
+      <Fade bottom>
+        <div className='flex flex-row flex-wrap m-auto shadow-md rounded-md my-10 p-2 bg-[#fdfdfd] border-l-2 border-orange'>
+          <div className='flex justify-center w-[350px] xl:w-[400px]'>
             <img src={topshelf} alt='Something went wrong..' className='w-[400px] hover:scale-110' />
           </div>
           <div className='p-2 w-[350px] xl:w-[400px]'>
@@ -65,25 +84,6 @@ const Portfolio = () => {
               <h2 className='m-auto my-2 text-orange font-bold border-2 border-orange rounded-full px-5 py-2 text-lg hover:cursor-pointer hover:bg-orange hover:text-white'>Demo</h2>
             </a>
             <a href='https://github.com/EPK3/iptracker/find/main' target="_blank" rel="noreferrer noopener" className='m-auto'>
-              <h2 className='m-auto my-2 text-orange font-bold border-2 border-orange rounded-full px-5 py-2 text-lg hover:cursor-pointer hover:bg-orange hover:text-white'>Source Code</h2>
-            </a>
-          </div>
-        </div>
-      </Fade>
-      <Fade bottom>
-        <div className='flex flex-row flex-wrap m-auto shadow-md rounded-md my-10 p-2 bg-[#fdfdfd] border-l-2 border-orange'>
-          <div className='flex justify-center w-[350px] xl:w-[400px]'>
-            <img src={helptech} alt='Something went wrong..' className='w-[400px] hover:scale-110' />
-          </div>
-          <div className='p-2 w-[350px] xl:w-[400px]'>
-            <h1 className='m-2 text-xl'>HelpTech Website</h1>
-            <p className='m-2 text-gray'>A mobile responsive IT Solutions website built using React and styled with Tailwind CSS.</p>
-          </div>
-          <div className='flex flex-col m-auto justify-center content-center w-[350px] xl:w-[400px] lg:border-l-[1px] border-light-gray'>
-            <a href='https://epk3.github.io/helptech/' target="_blank" rel="noreferrer noopener" className='m-auto'>
-              <h2 className='m-auto my-2 text-orange font-bold border-2 border-orange rounded-full px-5 py-2 text-lg hover:cursor-pointer hover:bg-orange hover:text-white'>Demo</h2>
-            </a>
-            <a href='https://github.com/EPK3/helptech/find/main' target="_blank" rel="noreferrer noopener" className='m-auto'>
               <h2 className='m-auto my-2 text-orange font-bold border-2 border-orange rounded-full px-5 py-2 text-lg hover:cursor-pointer hover:bg-orange hover:text-white'>Source Code</h2>
             </a>
           </div>

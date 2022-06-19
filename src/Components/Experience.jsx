@@ -1,13 +1,18 @@
-import { faCalendar } from '@fortawesome/free-regular-svg-icons'
-import { faAward, faBriefcase, faRobot, faUserGraduate, faDownload } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import comptia from '../img/comptia.webp'
-import googleIT from '../img/googleIT.webp'
-import htmlIcon from '../img/html-1.webp'
-import cssIcon from '../img/css.webp'
-import jsIcon from '../img/javascript.webp'
-import reactIcon from '../img/react.webp'
-import tailwindIcon from '../img/tailwind.webp'
+import { faCalendar } from '@fortawesome/free-regular-svg-icons';
+import { faAward, faBriefcase, faRobot, faUserGraduate, faDownload } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import comptia from '../img/comptia.webp';
+import googleIT from '../img/googleIT.webp';
+import htmlIcon from '../img/html-1.webp';
+import cssIcon from '../img/css.webp';
+import jsIcon from '../img/javascript.webp';
+import reactIcon from '../img/react.webp';
+import tailwindIcon from '../img/tailwind.webp';
+import npmIcon from '../img/npm.webp';
+import sassIcon from '../img/sass.webp';
+import reduxIcon from '../img/redux.webp';
+import mockPlusIcon from '../img/mockplus.webp';
+
 import React from 'react'
 import { Fade } from 'react-reveal'
 
@@ -32,7 +37,11 @@ const Experience = () => {
               <img src={cssIcon} alt='Something went wrong..' className='w-[100px] md:w-[250px] h-[100px] md:h-[250px] m-5 bg-white rounded-full shadow-md p-1'/>
               <img src={jsIcon} alt='Something went wrong..' className='w-[100px] md:w-[250px] h-[100px] md:h-[250px] m-5 bg-white rounded-full shadow-md p-1'/>
               <img src={reactIcon} alt='Something went wrong..' className='w-[100px] md:w-[250px] h-[100px] md:h-[250px] m-5 bg-white rounded-full shadow-md p-1'/>
+              <img src={reduxIcon} alt='Something went wrong..' className='w-[100px] md:w-[250px] h-[100px] md:h-[250px] m-5 bg-white rounded-full shadow-md p-1'/>
               <img src={tailwindIcon} alt='Something went wrong..' className='w-[100px] md:w-[250px] h-[100px] md:h-[250px] m-5 bg-white rounded-full shadow-md p-1'/>
+              <img src={npmIcon} alt='Something went wrong..' className='w-[100px] md:w-[250px] h-[100px] md:h-[250px] m-5 bg-white rounded-full shadow-md p-1'/>
+              <img src={sassIcon} alt='Something went wrong..' className='w-[100px] md:w-[250px] h-[100px] md:h-[250px] m-5 bg-white rounded-full shadow-md p-1'/>
+              <img src={mockPlusIcon} alt='Something went wrong..' className='w-[100px] md:w-[250px] h-[100px] md:h-[250px] m-5 bg-white rounded-full shadow-md p-1'/>
             </Fade>
           </div>
         <div className='basis-full'></div>
