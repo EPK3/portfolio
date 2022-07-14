@@ -57,7 +57,7 @@ const Experience = () => {
               <div className='w-[350px] md:w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
                 <div className='p-5 pb-2 text-black text-sm'>
                   <FontAwesomeIcon icon={faCalendar} className='inline-flex'/>
-                  <h1 className='inline-flex mx-2'>January 2020 - PRESENT</h1>
+                  <h1 className='inline-flex mx-2'>January 2021 - PRESENT</h1>
                 </div>
                 <h2 className='px-5 text-xl text-orange'>Associate of Science: Cybersecurity</h2>
                 <h3 className='px-5 text-gray'>Bucks County Community College</h3>
@@ -81,6 +81,17 @@ const Experience = () => {
               <div className='w-[350px] md:w-[400px] bg-orange text-white text-2xl rounded-md my-5 py-2 shadow-md'>
                 <FontAwesomeIcon icon={faBriefcase} className='inline-flex align-middle ml-5 mr-2'/>
                 <h1 className='inline-flex align-middle'>Experience</h1>
+              </div>
+            </Fade>
+            <Fade bottom>
+              <div className='w-[350px] md:w-[400px] h-[200px] bg-white rounded-md my-5 shadow-md'>
+                <div className='p-5 pb-2 text-black text-sm'>
+                  <FontAwesomeIcon icon={faCalendar} className='inline-flex'/>
+                  <h1 className='inline-flex mx-2'>June 2022 - PRESENT</h1>
+                </div>
+                <h2 className='px-5 text-xl text-orange'>Jr. Web Developer</h2>
+                <h3 className='px-5 text-gray'>NexVel Solutions</h3>
+                <h3 className='px-5 text-light-gray'>Elkins-Park, PA</h3>
               </div>
             </Fade>
             <Fade bottom>
